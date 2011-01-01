@@ -34,7 +34,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void shouldReturnTrueForTheSameButNonCaseSensitiveWords()  {
+    public void shouldReturnTrueForTheSameButDifferentlyCasedWords()  {
         assertTrue(new Comparator().same("wORd word"));
     }
 
